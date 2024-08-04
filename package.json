@@ -10,7 +10,8 @@
     "web": "expo start --web",
     "test": "jest --watchAll",
     "lint": "expo lint",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css,scss,html}\"",
+    "check-format": "prettier --check --ignore-path .gitignore .",
+    "format": "prettier --write --ignore-path .gitignore .",
     "prepare": "husky"
   },
   "jest": {
