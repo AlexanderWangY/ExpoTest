@@ -9,8 +9,8 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "test": "jest --watchAll",
-    "lint": "expo lint",
-    "format": "prettier -w ./app/*",
+    "lint": "expo lint && echo '\u001b[32m✔ All Expo lint checks passed\u001b[0m'",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css,scss,html}\" && echo '\u001b[32m✔ All Prettier format checks passed\u001b[0m'",
     "prepare": "husky"
   },
   "jest": {
