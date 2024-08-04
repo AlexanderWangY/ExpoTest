@@ -8,6 +8,7 @@ const Home = () => {
         <Text>HI!</Text>
       </TouchableOpacity>
       <Text>WHAT</Text>
+      <Tex>ERROR</Tex>
     </View>
   );
 };
